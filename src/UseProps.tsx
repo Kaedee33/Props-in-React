@@ -3,12 +3,12 @@ import './UseProps.css';
 
 // Define the interface for employee data with required data types
 interface EmployeeProps {
-  sex: string;               // char (M or F)
-  fullName: string;          // varchar (name)
-  yearsWorked: number;       // integer
-  salary: number;            // float
-  isActive: boolean;         // boolean
-  department: string;        // varchar (department)
+  sex: string;              
+  fullName: string;          
+  yearsWorked: number;       
+  salary: number;            
+  isActive: boolean;         
+  department: string;        
 }
 
 // Child component that displays employee details
